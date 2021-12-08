@@ -7,7 +7,7 @@ const RoomForm = ({inputs, handleChange, handleSubmit, clearInput}) => {
   return(
     <form className={styles.container} onSubmit={handleSubmit}>
       <FormInputs inputs={inputs} handleChange={handleChange} clearInput={clearInput} />
-      <SubmitButton text="Join" />
+      <SubmitButton text="Start" />
     </form>
   );
 };
